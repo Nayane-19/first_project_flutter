@@ -1,5 +1,5 @@
 import 'package:first_project/constants.dart';
-import 'package:first_project/models/screens/home_screen.dart';
+import 'package:first_project/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
