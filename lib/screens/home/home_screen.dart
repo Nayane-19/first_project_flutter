@@ -1,4 +1,4 @@
-import 'package:first_project/components/body.dart';
+import 'package:first_project/screens/home/components/body.dart';
 import 'package:first_project/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

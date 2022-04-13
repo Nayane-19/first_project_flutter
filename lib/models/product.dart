@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 class Product {
-  final String? image, title, description;
+  final String image, title, description;
   final int? price, size, id;
-  final Color? color;
+  final Color color;
   Product({
     this.id,
-    this.image,
-    this.title,
+    this.image = "assets/images/bag_2.png",
+    this.title = "Teste",
     this.price,
-    this.description,
+    this.description = "Teste",
     this.size,
-    this.color,
+    this.color = Colors.black,
   });
 }
 
@@ -19,7 +19,7 @@ List<Product> products = [
   Product(
       id: 1,
       title: "Office Code",
-      price: 234,
+      price: 204,
       size: 12,
       description: dummyText,
       image: "assets/images/bag_1.png",
@@ -27,7 +27,7 @@ List<Product> products = [
   Product(
       id: 2,
       title: "Belt Bag",
-      price: 234,
+      price: 334,
       size: 8,
       description: dummyText,
       image: "assets/images/bag_2.png",
@@ -35,7 +35,7 @@ List<Product> products = [
   Product(
       id: 3,
       title: "Hang Top",
-      price: 234,
+      price: 250,
       size: 10,
       description: dummyText,
       image: "assets/images/bag_3.png",
@@ -51,7 +51,7 @@ List<Product> products = [
   Product(
       id: 5,
       title: "Office Code",
-      price: 234,
+      price: 134,
       size: 12,
       description: dummyText,
       image: "assets/images/bag_5.png",
@@ -59,7 +59,7 @@ List<Product> products = [
   Product(
     id: 6,
     title: "Office Code",
-    price: 234,
+    price: 344,
     size: 12,
     description: dummyText,
     image: "assets/images/bag_6.png",
